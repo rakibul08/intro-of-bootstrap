@@ -1,0 +1,389 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+/* common css end */
+/* nav part start */
+.navbar{
+    background-color: #F9F9FC;
+     padding: 39px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 12;
+   
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    margin-right: 20px;
+}
+.hireme{
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #5E3BEE;
+}
+.hireme i{
+    margin-right: 5px;
+}
+/* nav part end */
+/* banner start  */
+#bannerPart{
+    padding-top: 160px;
+    padding-bottom: 143px;
+    background-color: #F9F9FC;
+}
+.bannerleft{
+    margin-top: 100px;
+}
+.bannerleft h3{
+font-size: 16px;
+line-height: 24px;
+color: #5E3BEE;
+font-weight: 500;
+letter-spacing: 1.5px;
+padding: 32px 0;
+}
+.bannerleft h1{
+    font-size: 66px;
+    line-height: 78px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.bannerleft a{
+    border:  1px solid;
+    font-size: 14px;
+    margin-right: 10px;
+    color:black;
+    font-weight: 500;
+    padding: 25px 38px;
+   border-radius: 10px;
+   transition: all linear 0.5s;
+}
+.bannerleft a:hover{
+    background-color: #5E3BEE;
+    color: #ece5e5;
+   
+}
+/* banner end  */
+#reawardpart{
+    padding-top: 90px;
+    padding-bottom:140px ;
+    background-color: #F9F9FC;
+}
+.reawardtitle h2{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 0;  
+}
+.reawardtitle h4{
+    color: #918989;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.reawardcenter{
+   padding: 120px 0
+   ;
+}
+.reawardcenter p{
+font-size: 16px;
+color: #5E3BEE;
+line-height: 24px;
+padding: 12px 0;
+}
+.reawardcenter h2{
+    font-size:40px ;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 0 14px 0;
+}
+.reawardcenter h6 {
+    font-size: 22px;
+    font-weight:400 ;
+    line-height: 24px;
+    color:#121212 ;
+    width: 500px;
+    margin:  0 auto;
+}
+.card{
+   
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
+     padding: 40px;
+    border-radius: 25px;
+}
+ .card img{
+    width: 40px;
+    height: 40px;
+   margin: 0 auto;
+} 
+.card h4{
+    font-size: 21px;
+    padding: 58px 0 5px 0;
+    line-height: 32px;
+    font-weight:500 ;
+    color: #000000;
+}
+.card p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #121212;
+    font-weight: 400;
+}
+/* card end  */
+/* reawartpart end  */
+/* Graphics-section start  */
+#Graphics-section{
+    padding: 100px;
+   background-color: #fff;
+}
+.right{
+    margin-top: 80px;
+}
+.right h5{
+    font-size: 16px;
+    color: #5E3BEE;
+    line-height: 24px;
+    padding: 12px 0;
+
+}
+.right h1{
+   font-size: 66px;
+    line-height: 78px;
+    font-weight: bold;
+    padding: 20px 0; 
+}
+.right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+    padding: 18px 0;
+   
+}
+.right a{
+    border: 1px solid;
+    font-size: 14px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 500;
+    padding: 25px 38px;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+    
+}
+.right a:hover{
+background: #5E3BEE;
+color: #fff;
+}
+/* Graphics-section end  */
+/* logusection start */
+#logusection{
+    padding: 127px 0;
+}
+/* logusection end*/
+/*  protfolio card end  */
+#protfolio{
+   padding: 127px 0; 
+   background-color: #F9F9FC;
+   border-bottom: 1px solid white;
+}
+.titleone h5 {
+    font-size: 16px;
+    color: #5E3BEE;
+    line-height: 24px;
+    padding: 12px 0;
+}
+.titleone h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 0 14px 0;
+}
+.titletwo p{
+    font-size: 16px;
+    color: #918989;
+    line-height: 30px;
+    padding: 30px 0;
+   
+}
+/* protfolio card  */
+.card1{
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.7);
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.cardtitle {
+    padding: 20px 47px;
+    
+}
+.cardtitle h3{
+color: #000000;
+font-size: 20px;
+line-height: 32px;
+font-weight: 500;
+padding: 12px 0;
+}
+
+/* protfolio card  */
+/*  protfolio card end*/
+/* client part start*/
+#clientspart{
+   
+    background-color: #F9F9FC;
+}
+.clienttitle p{
+    font-size: 16px;
+    color: #5E3BEE;
+    line-height: 24px;
+    padding:120px 0 0 0 ;
+} 
+.clienttitle h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 0 14px 0;
+}
+.clienttitle h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    line-height: 20px;
+    padding:  0 0 50px 0;
+ 
+}
+/* box part  */
+.boxone{
+ padding:42px;
+ background-color: white;   
+ box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.829);
+}
+.boxone img{
+padding: 20px 0;
+}
+.boxone h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    padding: 12px 0;
+}
+.secondflextitle h2{
+   font-size: 18px;
+   line-height: 32px;
+   color: #000000;
+   padding: 5px 0;
+
+}
+.secondflextitle h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #918989;
+}
+.fristflex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px 0;
+}
+.secondflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* box part  */
+/* client part end*/
+/* work section start  */
+#worksection{
+    padding: 120px 0;
+}
+.background{
+ background-image: url(../image/section.png);
+   padding: 140px 0;
+}
+.workbox h1{
+    font-size: 70px;
+    line-height: 80px;
+    padding: 40px 0;
+    font-weight: 700    ;
+}
+.workbox a{
+    border: 1px solid;
+    font-size: 14px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 500;
+    padding: 25px 38px;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+}
+.workbox a:hover{
+    background: #EE3B9A;
+    color: #fff;
+}
+/* work section end  */
+/* nav section start  */
+.nav h5{
+    font-size: 16px;
+    line-height: 22px;
+    color: #918989;
+    padding: 25px 0;
+    font-weight: 400;
+}
+.boxleft p{
+color: #918989;
+font-size: 16px;
+font-weight: 400;
+padding: 15px 0;
+}
+.images img{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.navflex a{
+    margin-right: 30px;
+    color: #fff;
+} 
+.navright h3{
+    font-size:16px ;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+    font-weight: 400;
+}
+/* nav section end  */
